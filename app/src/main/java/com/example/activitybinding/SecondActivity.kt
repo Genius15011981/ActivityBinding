@@ -30,7 +30,6 @@ class SecondActivity : AppCompatActivity() {
 
     fun txtClear(view: View) {
         val txt=findViewById<EditText>(R.id.ageEt)
-//        txt.setText("")
-        txt.clearComposingText()
+        txt.setText("")
     }
 }
